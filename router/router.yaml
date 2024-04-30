@@ -29,7 +29,7 @@ subscription:
          path: /
 
 ## Enter Workshop Module Configs Below
-
+## Authentication and Authorization Module
 authentication:
   router:
     jwt:
@@ -42,4 +42,3 @@ authorization:
   require_authentication: false
   preview_directives: 
     enabled: true
-
